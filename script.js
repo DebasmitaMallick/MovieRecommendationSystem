@@ -6,6 +6,8 @@ const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
 
+//  api fetching will be changed from normal fetching to axios catch and try 
+
 // Get initial movies
 getMovies(API_URL)
 
